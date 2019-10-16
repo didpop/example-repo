@@ -57,4 +57,3 @@ print()
 query = Pet.select().order_by(Pet.name.desc())
 for pet in query:
     print(pet.name, pet.animal_type)
-
